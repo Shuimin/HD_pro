@@ -1,0 +1,30 @@
+nav ul li a{
+    font-size: 1rem;
+    color: #333 !important;;
+}
+.bg-primary {
+    background-color:#ffffff !important;;
+}
+.ml-6{
+    margin-left:18rem ;
+}
+.navbar-toggler-icon{
+    color:#c3d800 !important;
+}
+@media screen and (min-width:576px) and (max-width:991px) {
+    .hidden-sm{
+        display:none;
+    }
+}
+@media screen and (max-width:576px){
+    .about-hidden-sm{
+        margin-left:0 !important;
+    }
+}
+@media screen and (min-width:992px) {
+    .container-fluid{
+        width:100%;
+        margin:0 auto;
+        padding:0;
+    }
+}

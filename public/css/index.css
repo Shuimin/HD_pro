@@ -1,0 +1,267 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing: border-box !important;
+        text-decoration: none !important;
+        list-style: none !important;
+}
+@media screen and (min-width:992px) {
+        .top>img{
+                width:100%;
+        }
+}
+@media screen and (max-width:991px) and (min-width:768px){
+        .top>img{
+                width:100%;
+        }
+}
+@media screen and (max-width:767px){
+        .top>img{
+                width:100%;
+        }
+}
+body{
+        background-color:#f5f5f5;
+}
+.my_bg{
+        background-color:#fff;
+        margin-top:-30px;
+}
+.my_bg1{
+        background-color:#fff;
+        margin-top:30px;
+        margin-bottom:-30px;
+        position: relative;
+}
+.my_hr{
+        position: absolute;
+        top:20px;
+        right:0;
+        width:2px;
+        height:80px;
+        background-color:#f5f5f5;
+}
+.my_big_font{
+        font-size:20px;
+        color: #4a4a4a;
+}
+.my_big_f1{
+        padding-top:93px;
+}
+.my_big_hr{
+        width:40px;
+        height:1px;
+        background-color:#c3d800 !important;
+        margin-top:-10px;
+        margin-left:108px;
+}
+.my_big_f2{
+        padding-top:20px;
+}
+.my_small_font{
+        color: #9b9b9b;
+        font-size:15px;
+        margin:0;
+        padding:0;
+}
+/*中间布局*/
+.z_indx{
+        margin-top:-396px;
+        margin-bottom:46px;
+}
+.z_indx>div>p{
+        color:#FFF;
+}
+.z_indx>div>a{
+        color:#fff;
+        font-size:20px;
+}
+.z_indx_p1{
+        font-size:28px;
+}
+/*四张图片*/
+
+.z_index_png  div{
+        box-shadow: 0 6px 6px rgba(231, 231, 231, 1);
+        border-radius: 10px;
+        padding: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #fff;
+}
+.z_index_png li{
+        padding-left:9px;
+        padding-right:9px;
+}
+.f1-gtitle{
+        text-align:center;
+        margin-bottom:30px;
+}
+.f1-gtitle img{
+        width: 460px;
+        height: 60px;
+}
+.index_p0{
+        padding-top:30px !important;
+}
+.index_p1{
+        color:#000 !important;
+        font-size:18px;
+}
+.index_p2{
+        margin-top:15px !important;
+        font-size:18px;
+        color:red;
+}
+.index_p3{
+        margin-top:20px !important;
+        font-size:14px;
+        color:#7b868c;
+        margin-bottom:20px !important;
+}
+hr{
+        width:200px;
+}
+/*第三部分*/
+.bg_d3{
+        margin-bottom:100px;
+}
+/*第四部分*/
+/*轮播*/
+.my_lunbo{
+        margin-bottom:100px !important;
+}
+.my_lunbo_p1{
+        color:#7b868c;
+        font-size:14px;
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:20px;
+}
+.my_lunbo_p2{
+        color:#212023;
+        margin-top:10px;
+        font-size:13px;
+        padding-left:20px;
+        padding-right:20px;
+}
+.my_lunbo_p3{
+        font-size:14px;
+        margin-top:10px;
+        color:#7b868c;
+        padding-bottom:20px;
+        padding-left:20px;
+        padding-right:20px;
+}
+/*导航指示符*/
+.my_zhishi{
+        margin-bottom:-50px;
+}
+/*第五部分*/
+
+/*媒体报道*/
+.my_baodao{
+        background:url(../img/bg/2.jpg) no-repeat center 0;
+        height:888px;
+}
+.my_meiti_title{
+        padding-top:80px;
+}
+.my_meiti_tubiao{
+        float:left;
+        font-size:28px;
+        color:#fff;
+}
+.my_meiti_tubiao1{
+        font-size:20px;
+        color:#fff !important;
+}
+
+.my_bao{
+        width:100%;
+        height:500px;
+}
+.my_bao_ul>li{
+        background-color:#fff;
+        border-radius:10px;
+        height:140px;
+        margin-top:50px;
+}
+.my_bao_img{
+        width:80px;
+        height:42px;
+        float:left;
+        margin:50px 30px 40px 30px;
+}
+.my_bao_neirong{
+        float:left;
+        width:340px;
+        height:90px;
+        margin-top:25px;
+}
+.my_bao_neirong>p:first-child{
+        font-size:14px;
+        height:20px;
+        line-height: 20px;
+        margin-bottom:5px;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+}
+.my_bao_neirong>p:first-child>a{
+        color:#212023;
+}
+.my_bao_neirong>p:nth-child(2){
+        font-size:12px;
+        line-height: 21px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+}
+.my_bao_neirong>p:nth-child(2)>a{
+        color:#7b868c;
+}
+/*订花知识*/
+.my_ding{
+        margin-bottom:150px;
+}
+.my_ding>li{
+        margin-top:30px;
+        font-size:20px;
+        background: url("../img/bd/dinghuazhishi-icon.png") no-repeat 118px center;
+}
+.my_ding>li>a{
+        color:#7b868c !important;
+}
+/*侧边*/
+.my_ce{
+        position: relative;
+}
+.my_ce_ul{
+        position: fixed;
+        top:150px;
+        right:18px;
+}
+.my_ce_ul>li:first-child{
+        width:50px;
+        height:50px;
+        line-height: 50px;
+        background:url(../img/bd/logo3.png) no-repeat center center #c3d800;
+}
+.my_ce_ul>li:not(:first-child){
+        width:50px;
+        height:50px;
+        background-color:#4a4a4a;
+        text-align: center;
+        cursor:pointer;
+        padding-top:5px;
+        font-size: 12px;
+}
+.my_ce_ul>li:not(:first-child)>p>a{
+        color:#9b9b9b !important;
+}
+.active{
+        background-color:#fff;
+}
